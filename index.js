@@ -14,7 +14,7 @@ ${renderLicenseBadge}
     
 
 ## Description
-    ${description}
+${description}
 
 ## Table of Contents
 - [Installation](#installation)
@@ -43,6 +43,7 @@ ${license} ${renderLicenseLink}
 `;
 }
 
+function init() {    
     inquirer
     .prompt([
       {
@@ -98,12 +99,6 @@ ${license} ${renderLicenseLink}
           }
         });
     });
+}
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-// function init() {}
-
-// Function call to initialize app
-// init();
+init();
