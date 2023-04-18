@@ -1,34 +1,33 @@
 
-    ## README.generator
+# dsafsadf
 
-    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
     
 
-    ## Description
-    This app saves you time by generatoring a readme.md file for you!
+## Description
+    sdfdsfds
 
-    ## Table of Conents
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
-    - [Questions](#questions)
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Questions](#questions)
 
-    ## Installation
-    IN orderd to generate
+## Installation
+fasdfasdfsa
 
-    ## Usage
-    asfsdfa
+## Usage
+fsdafasdfsa
 
-    ## Contributing
-    undefined
+## Contributing
+undefined
 
-    ## Tests
-    testing testy
+## Tests
+sadfsdafsdaf
 
-    ## Questions
-    If you have any questions my github is: github,c. You can also reach me via email at: github@git.com
+## Questions
+If you have any questions my github is: asdfasdfas. You can also reach me via email at: asdfasfd
 
-    ## License
-    Apache https://opensource.org/licenses/Apache-2.0
-    
+## License
+BSD https://opensource.org/licenses/BSD-3-Clause

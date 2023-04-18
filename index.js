@@ -8,40 +8,40 @@ function createReadMe(name, description, installation, usage, contribute, tests,
     const renderLicenseLink = licenseLink(license);
     
     return `
-    ## ${name}
+# ${name}
 
-    ${renderLicenseBadge}
+${renderLicenseBadge}
     
 
-    ## Description
+## Description
     ${description}
 
-    ## Table of Conents
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
-    - [Questions](#questions)
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Questions](#questions)
 
-    ## Installation
-    ${installation}
+## Installation
+${installation}
 
-    ## Usage
-    ${usage}
+## Usage
+${usage}
 
-    ## Contributing
-    ${contribute}
+## Contributing
+${contribute}
 
-    ## Tests
-    ${tests}
+## Tests
+${tests}
 
-    ## Questions
-    If you have any questions my github is: ${github}. You can also reach me via email at: ${email}
+## Questions
+If you have any questions my github is: ${github}. You can also reach me via email at: ${email}
 
-    ## License
-    ${license} ${renderLicenseLink}
-    `;
-    }
+## License
+${license} ${renderLicenseLink}
+`;
+}
 
     inquirer
     .prompt([
