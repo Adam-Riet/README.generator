@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('utils/generateMarkdown.js');
+// const generateMarkdown = require('./generateMarkdown.js');
 
 function createReadMe(name, description, installation, usage, contribute, tests, github, email, license) {
     return `
@@ -16,6 +16,7 @@ function createReadMe(name, description, installation, usage, contribute, tests,
     - [Usage](#usage)
     - [Credits](#credits)
     - [License](#license)
+    - [Questions](#questions)
 
     ## Installation
     ${installation}
@@ -80,13 +81,24 @@ function createReadMe(name, description, installation, usage, contribute, tests,
         message: 'Please select a license',
         choices: ['MIT', 'Apache', 'GNU General', 'BSD', 'GNU Lesser', 'None'],
       },
-    ])
+    ]).then((answers) => {
+        const { name, description, installation, usage, contribute, tests, github, email, license } = answers;
+        const readMeContent = createReadMe(name, description, installation, usage, contribute, tests, github, email, license);
+      
+        fs.writeFile('README.md', readMeContent, (err) => {
+          if (err) {
+            console.error('Error writing file:', err);
+          } else {
+            console.log('README.MD created successfully.');
+          }
+        });
+    });
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+// function init() {}
 
 // Function call to initialize app
-init();
+// init();
