@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('utils/generateMarkdown.js');
 
-function createReadMe(name, description, installation, usage, contribute, tests, github, license, email) {
+function createReadMe(name, description, installation, usage, contribute, tests, github, email, license) {
     return `
     ## ${name}
     
@@ -52,18 +52,34 @@ function createReadMe(name, description, installation, usage, contribute, tests,
       {
         type: 'imput',
         name: 'installation',
-        message: 'Please provide installation instructions'
+        message: 'Please provide installation instructions.'
       },
       {
         type: 'imput',
-        name: 'linkedinUrl',
-        message: 'What is your linked in URL?'
+        name: 'usage',
+        message: 'Please provide app/project usage.'
       },
       {
         type: 'imput',
-        name: 'githubUrl',
-        message: 'What is your github URL?'
-      }
+        name: 'tests',
+        message: 'Provide any tests for your application.'
+      },
+      {
+        type: 'imput',
+        name: 'github',
+        message: 'Please provide your github for user questions'
+      },
+      {
+        type: 'imput',
+        name: 'email',
+        message: 'Please provide your email for user questions'
+      },
+      {
+        type: 'list',
+        name: 'license',
+        message: 'Please select a license',
+        choices: ['MIT', 'Apache', 'GNU General', 'BSD', 'GNU Lesser', 'None'],
+      },
     ])
 
 // TODO: Create a function to write README file
