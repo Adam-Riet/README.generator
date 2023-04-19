@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { licenseBadge, licenseLink } = require('/Users/adamriet/bootcamp/README.generator/utils/generateMarkdown.js');
+const { licenseBadge, licenseLink } = require('./utils/generateMarkdown.js');
 
 function createReadMe(name, description, installation, usage, contribute, tests, github, email, license) {
     const renderLicenseBadge = licenseBadge(license);
