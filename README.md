@@ -9,6 +9,7 @@ This command-line application is a professional README generator that helps deve
 
 ## Table of Contents
 - [Installation](#installation)
+- [Demo](#demo)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
@@ -25,13 +26,30 @@ This command-line application is a professional README generator that helps deve
 4. Install the necessary dependencies by running npm install in your terminal. This command will install the required packages listed in the package.json file, such as Inquirer.
 5. Once the installation is complete, you can use the application by running node index.js in your terminal. This command will start the application and prompt you for the required information.
 
+## Demo
+Check out this video on how to run the code once you have complete the instrucitons:
+
 ## Usage
-Install the necessary dependencies by running npm install in your terminal. This command will install the required packages listed in the package.json file, such as Inquirer.
+1. Open a terminal or command prompt.
+2. Navigate to the project directory.
+3. Run node index.js.
+4. Answer the prompts to provide information about your project, such as the title, description, installation instructions, usage information, contribution guidelines, and test instructions.
+5. After answering all the prompts, a README.md file will be generated in the project directory, containing the information you provided.
 
+## Credits
 
+* This README Generator wouldn't be possible without the following resources and tools:
+
+* Node.js: A JavaScript runtime built on Chrome's V8 JavaScript engine, enabling the creation of scalable and efficient applications.
+
+* Inquirer: A powerful command-line interface (CLI) library for Node.js that allows users to interact with the application and provide input in an intuitive manner.
+npm (Node Package Manager): The world's largest software registry, providing access to countless packages, tools, and libraries that greatly simplify the development process.
+
+* File System (fs): A built-in Node.js module that enables interaction with the file system, allowing for the reading and writing of files.
+package.json: A crucial file in any Node.js project that contains metadata about the project, such as its name, version, dependencies, and scripts.
 
 ## Questions
-If you have any questions my github is: n/a. You can also reach me via email at: n/a
+If you have any questions my github is: https://github.com/Adam-Riet. You can also reach me via email at: adamriet@gmail.com.
 
 ## License
 MIT https://opensource.org/licenses/MIT
