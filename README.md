@@ -17,8 +17,8 @@ This command-line application is a professional README generator that helps deve
 ## Installation
 1. Clone the repository to your local machine. You can use either the SSH or HTTPS URL:
 
-SSH: git@github.com:Adam-Riet/README.generator.git
-HTTPS: git clone https://github.com/Adam-Riet/README.generator.git
+    SSH: git@github.com:Adam-Riet/README.generator.git
+    HTTPS: git clone https://github.com/Adam-Riet/README.generator.git
 
 2. Navigate to the project directory by running `cd README.GENERATOR`.
 3. Install Node.js on your machine if you haven't already. You can download it from the official website: https://nodejs.org/.
