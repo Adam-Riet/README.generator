@@ -29,6 +29,8 @@ This command-line application is a professional README generator that helps deve
 ## Demo
 Check out this video on how to run the code once you have complete the instrucitons:
 
+[Click here to watch the demo video](https://drive.google.com/file/d/1mr0R3klMEKDa_9NQVR0Du915o9dkn1sr/view?usp=sharing)
+
 ## Usage
 1. Open a terminal or command prompt.
 2. Navigate to the project directory.
